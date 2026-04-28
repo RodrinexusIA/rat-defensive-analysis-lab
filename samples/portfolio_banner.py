@@ -1,0 +1,36 @@
+"""
+RAT Defensive Analysis Lab
+Author: RODRIGO FABRICIO
+
+Safe portfolio banner.
+No malware. No payload. No persistence. No keylogger.
+"""
+
+BANNER = r"""
+██████╗  ██████╗ ██████╗ ██████╗ ██╗ ██████╗  ██████╗ 
+██╔══██╗██╔═══██╗██╔══██╗██╔══██╗██║██╔════╝ ██╔═══██╗
+██████╔╝██║   ██║██║  ██║██████╔╝██║██║  ███╗██║   ██║
+██╔══██╗██║   ██║██║  ██║██╔══██╗██║██║   ██║██║   ██║
+██║  ██║╚██████╔╝██████╔╝██║  ██║██║╚██████╔╝╚██████╔╝
+╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝ ╚═════╝  ╚═════╝ 
+
+███████╗ █████╗ ██████╗ ██████╗ ██╗ ██████╗██╗ ██████╗ 
+██╔════╝██╔══██╗██╔══██╗██╔══██╗██║██╔════╝██║██╔═══██╗
+█████╗  ███████║██████╔╝██████╔╝██║██║     ██║██║   ██║
+██╔══╝  ██╔══██║██╔══██╗██╔══██╗██║██║     ██║██║   ██║
+██║     ██║  ██║██████╔╝██║  ██║██║╚██████╗██║╚██████╔╝
+╚═╝     ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝ ╚═════╝╚═╝ ╚═════╝ 
+"""
+
+def main():
+    print(BANNER)
+    print("=" * 70)
+    print("RAT Defensive Analysis Lab")
+    print("Blue Team | Malware Analysis | Detection Engineering")
+    print("=" * 70)
+    print("[SAFE] This project contains no functional malware.")
+    print("[SAFE] This project is for defensive education only.")
+    print("[SAFE] Payload, keylogger, shell and persistence were removed.")
+
+if __name__ == "__main__":
+    main()

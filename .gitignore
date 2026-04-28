@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+dist/
+build/
+*.spec
+*.exe
+*.dll
+*.bin
+payload*
+server.py
+keylogs/
+screenshots/private/
