@@ -64,3 +64,21 @@ samples/
 
 screenshots/
 
+## Screenshots
+
+### Portfolio Banner
+
+![Banner](screenshots/banner.png)
+
+### Safe Demo
+
+![Demo](screenshots/demo.png)
+
+## MITRE ATT&CK
+
+This project references common RAT-related ATT&CK techniques for defensive analysis.
+
+See:
+- docs/mitre-mapping.md
+- docs/ioc-examples.md
+
